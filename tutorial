@@ -1,4 +1,11 @@
 #using python 3.7 nha anh
+#Create folder Dataset in FaceTracking1
+#Create folder FaceData in Dataset
+#Create folder raw and processed in FaceData
+#hình để train thì anh bỏ vào thư mục(đặt tên là String anh muốn hiển thị, ví dụ tên, tuổi...) rồi để trong thư mục raw
+#Create folder Models in FaceTracking1
+#anh download  model từ link drive này rồi bỏ vô thư mục Models trên nha anh(https://drive.google.com/file/d/1TW4Hn9eK0i0LC2TkVqsK1swJAQjB7Vjq/view?usp=sharing)
+
 # Install environment
 pip install -r requirements.txt
 # Install library (If you haven't installed yet)
@@ -11,4 +18,4 @@ python src/classifier.py TRAIN Dataset/FaceData/processed Models/20180402-114759
 ## Open Camera to Test
 python src/face_rec_cam.py
 ## Open Video to Test
-python src/face_rec.py --path video/vi.mp4
+python src/face_rec.py --path video/... .mp4
